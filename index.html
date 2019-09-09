@@ -24,6 +24,10 @@
 		  $(document).ready(function(){
     $('.fixed-action-btn').floatingActionButton();
   });
+  
+   $(document).ready(function(){
+    $('.tooltipped').tooltip();
+  });
       </script>
 
         <style>
@@ -60,10 +64,11 @@
     <i class="large material-icons">mode_edit</i>
   </a>
   <ul>
-    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    <li><a class="btn-floating blue tooltipped" data-position="left" href = "https://www.linkedin.com/in/ranjitha-korrapati-34b669133/" data-tooltip = "LinkedIn"><i class="material-icons">person_pin</i></a></li>
+    <li><a class="btn-floating yellow darken-1 tooltipped" data-position="left" href = "https://github.com/kranjitha" data-tooltip = "GitHub"><i class="material-icons">laptop</i></a></li>
+    <li><a class="btn-floating green tooltipped" data-position="left" href = "files/RANJITHA RESUME.pdf" download = "resume" data-tooltip = "Download resume" ><i class="material-icons">file_download</i></a></li>
+    <li><a class="btn-floating red tooltipped" data-position="left" href = "https://medium.com/@ranjitha.korrapati/multi-threading-in-python-and-pyplot-46f325e6a9d0"  data-tooltip = "My medium article"><i class="material-icons">library_books</i></a></li>
+	
   </ul>
 </div>
 	 
